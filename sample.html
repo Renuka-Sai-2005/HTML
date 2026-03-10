@@ -3,89 +3,134 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Course Page</title>
+
+<title>Annamacharya University</title>
 
 <style>
-body {
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    padding: 20px;
+
+body{
+font-family:Arial;
+background-color:#f2f2f2;
+margin:0;
 }
 
-h1 {
-    color: #333;
+header{
+background:linear-gradient(to right,orange,red);
+color:white;
+padding:25px;
+text-align:center;
 }
 
-ul.nav-items {
-    list-style-type: circle;
-    padding-left: 20px;
+nav{
+background-color:#333;
+padding:15px;
+text-align:center;
 }
 
-ul.nav-items li a {
-    color: rgb(238,130,233);
-    text-decoration: none;  
-    font-weight: bold;
+nav a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-size:18px;
+font-weight:bold;
 }
 
-/* Underline About Us and Contact Us */
-ul.nav-items li:nth-child(2) a,
-ul.nav-items li:nth-child(3) a {
-    text-decoration: underline;
+nav a:hover{
+color:yellow;
 }
 
-ul.nav-items li a:hover {
-    color: purple;
+.box1{
+width:1000px;
+border:3px solid black;
+padding:20px;
+background-color:#e6f7ff;
+margin:20px auto;
+text-align:center;
 }
 
-.videos {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
+.box{
+width:320px;
+border:3px solid #333;
+padding:20px;
+background-color:white;
+margin:20px auto;
+border-radius:10px;
 }
 
-.video-container {
-    width: 350px;
+button{
+background-color:green;
+color:white;
+border:none;
+padding:10px 20px;
+font-size:16px;
+border-radius:5px;
 }
 
-iframe {
-    width: 100%;
-    height: 200px;
-    border: 1px solid #ccc;
+button:hover{
+background-color:darkgreen;
 }
 
-h3 {
-    color: #555;
+footer{
+background-color:black;
+color:white;
+text-align:center;
+padding:15px;
 }
+
 </style>
 </head>
 
 <body>
 
-<h1>This is my course page</h1>
+<header>
+<h1>Annamacharya University</h1>
+<p>Empowering Students Through Education</p>
+</header>
 
-<ul class="nav-items">
-    <li><a href="Home.html">Homepage</a></li>
-    <li><a href="About Us.html">About Us</a></li>
-    <li><a href="Contact Us.html">Contact Us</a></li>
-</ul>
+<nav>
+<a href="Home.html">Home</a>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
+</nav>
 
-<div class="videos">
-    <div class="video-container">
-        <h3>Video 1</h3>
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
+<div class="box1">
 
-    <div class="video-container">
-        <h3>Video 2</h3>
-        <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe>
-    </div>
+<h2>Welcome to Annamacharya University Website</h2>
 
-    <div class="video-container">
-        <h3>Video 3</h3>
-        <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
-    </div>
+<p>
+Annamacharya University is one of the leading educational institutions
+providing quality education for students. Our university focuses on
+innovation, research, and student development.
+</p>
+
+<p>
+Students can explore different courses, academic programs, and campus
+facilities through this website.
+</p>
+
+<div class="box">
+
+<h2>Student Login</h2>
+
+<form>
+
+<label>Registration Number:</label><br>
+<input type="text" placeholder="Registration Number"><br><br>
+
+<label>Password:</label><br>
+<input type="password" placeholder="Password"><br><br>
+
+<button type="submit">Login</button>
+
+</form>
+
 </div>
+
+</div>
+
+<footer>
+<p>© 2026 Annamacharya University | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>

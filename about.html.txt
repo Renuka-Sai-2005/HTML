@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About - Annamacharya University</title>
+</head>
+
+<body>
+
+<h1>About Annamacharya University</h1>
+
+<p>Annamacharya University provides quality education for students.</p>
+
+<p>Our mission is to develop knowledge, innovation, and skills.</p>
+<p>
+Annamacharya University was established to provide quality higher education.
+The university has modern laboratories, experienced faculty,
+and excellent campus facilities.
+</p>
+
+<a href="index.html">Back to Main Page</a>
+
+</body>
+</html>
